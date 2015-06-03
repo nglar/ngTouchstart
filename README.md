@@ -12,6 +12,6 @@ Then in your HTML you can use:
 ````
 
 # See also
-- [ngTouch](https://github.com/marktopper/ngTouch)
-- [ngTouchmove](https://github.com/marktopper/ngTouchmove)
-- [ngTouchend](https://github.com/marktopper/ngTouchend)
+- [ngTouch](https://github.com/nglar/ngTouch)
+- [ngTouchmove](https://github.com/nglar/ngTouchmove)
+- [ngTouchend](https://github.com/nglar/ngTouchend)
