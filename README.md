@@ -10,3 +10,8 @@ Then in your HTML you can use:
 ````
 <div ng-touchstart="someFunction($event)"></div>
 ````
+
+# See also
+- [ngTouch](https://github.com/marktopper/ngTouch)
+- [ngTouchmove](https://github.com/marktopper/ngTouchmove)
+- [ngTouchend](https://github.com/marktopper/ngTouchend)
