@@ -6,7 +6,7 @@ angular.module("ngTouchstart", []).directive("ngTouchstart", function () {
       $element.bind('touchstart', onTouchStart);
       
       function onTouchStart(event) {
-        var method = '$scope.' + $element.attr('ng-touchstart');
+        var method = $element.attr('ng-touchstart');
         $scope.$apply(method);
       };
     }
