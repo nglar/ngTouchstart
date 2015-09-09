@@ -17,7 +17,7 @@ module.exports = function(config) {
     files: [
         'node_modules/angular/angular.js',
         'node_modules/angular-mocks/angular-mocks.js',
-        'src/ngTouch.js',
+        'src/ngTouchstart.js',
         'tests/**/*.js',
         'tests/*.js'
     ],
