@@ -1,1 +1,15 @@
-"use strict";angular.module("ngTouchstart",[]).directive("ngTouchstart",function(){return{controller:function(t,n){function r(r){var u=n.attr("ng-touchstart");t.$event=r,t.$apply(u)}n.bind("touchstart",r)}}});
+"use strict";
+
+angular.module("ngTouchstart", []).directive("ngTouchstart", function () {
+  return {
+    controller: function ($scope, $element, $attrs) {
+      $element.bind('touchstart', onTouchStart);
+      
+      function onTouchStart(event) {
+        var method = $element.attr('ng-touchstart');
+        $scope.$event = event;
+        $scope.$apply(method);
+      };
+    }
+  };
+});
