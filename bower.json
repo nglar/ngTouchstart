@@ -1,6 +1,6 @@
 {
   "name": "ngtouchstart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A angular module to add directive `ng-touchstart`.",
   "main": "src/ngTouchstart.js",
   "directories": {
